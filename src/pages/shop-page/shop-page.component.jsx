@@ -4,9 +4,14 @@ import CollectionPreview from '../../components/collection-preview/collection-pr
 
 
 class ShopPage extends Component {
-  state = {
-    collections: SHOP_DATA
-  };
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      collections: SHOP_DATA
+    };
+  }
+
   render() {
     const { collections } = this.state;
     return (
