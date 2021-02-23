@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <div className='header'>
       <Link className='logo-container' to='/'>
-        <Logo className='logo' />
+        <Logo className='logo' /> <div className='logo-text'>Gato Gris</div>
       </Link>
       <div className='options'>
         <Link className='option' to='/shop' >

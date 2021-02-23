@@ -9,6 +9,10 @@
   margin: 0 7.5px 15px;
   overflow: hidden;
 
+  &.medium {
+    height: 280px;
+  }
+
   &.large {
     height: 380px;
   }
@@ -63,6 +67,11 @@
     .subtitle {
       font-weight: lighter;
       font-size: 16px;
+      &.hovered {
+        font-weight: bolder;
+        color: #536dfe;
+        font-size: 18px;
+      }
     }
   }
 }

@@ -6,35 +6,45 @@ export class Directory extends Component {
   state = {
     sections: [
       {
-        title: 'hats',
-        imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
+        title: 'Collares',
+        imageUrl: 'https://image.freepik.com/vector-gratis/elemento-brillo-capa-geometria-fondo-abstracto-gris_34645-84.jpg',
         id: 1,
+        size: 'medium',
         linkUrl: 'shop/hats'
       },
       {
-        title: 'jackets',
-        imageUrl: 'https://i.ibb.co/px2tCc3/jackets.png',
+        title: 'Pulseras',
+        imageUrl: 'https://image.freepik.com/vector-gratis/elemento-brillo-capa-geometria-fondo-abstracto-gris_34645-84.jpg',
         id: 2,
+        size: 'medium',
         linkUrl: 'shop/jackets'
       },
       {
-        title: 'sneakers',
-        imageUrl: 'https://i.ibb.co/0jqHpnp/sneakers.png',
+        title: 'Aretes',
+        imageUrl: 'https://image.freepik.com/vector-gratis/elemento-brillo-capa-geometria-fondo-abstracto-gris_34645-84.jpg',
         id: 3,
+        size: 'medium',
+        linkUrl: 'shop/jackets'
+      },
+      {
+        title: 'Anillos',
+        imageUrl: 'https://image.freepik.com/vector-gratis/elemento-brillo-capa-geometria-fondo-abstracto-gris_34645-84.jpg',
+        id: 4,
+        size: 'medium',
         linkUrl: 'shop/sneakers'
       },
       {
-        title: 'womens',
-        imageUrl: 'https://i.ibb.co/GCCdy8t/womens.png',
-        size: 'large',
-        id: 4,
+        title: 'Tobilleras',
+        imageUrl: 'https://image.freepik.com/vector-gratis/elemento-brillo-capa-geometria-fondo-abstracto-gris_34645-84.jpg',
+        id: 5,
+        size: 'medium',
         linkUrl: 'shop/womens'
       },
       {
-        title: 'mens',
-        imageUrl: 'https://i.ibb.co/R70vBrQ/men.png',
-        size: 'large',
-        id: 5,
+        title: 'Gargantillas',
+        imageUrl: 'https://image.freepik.com/vector-gratis/elemento-brillo-capa-geometria-fondo-abstracto-gris_34645-84.jpg',
+        id: 6,
+        size: 'medium',
         linkUrl: 'shop/mens'
       }
     ]
