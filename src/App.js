@@ -19,12 +19,14 @@ function App() {
   return (
     <div>
       <Header />
-      <Switch>
-        <Route exact path='/' component={Homepage} />
-        <Route path='/signin' component={SignPage} />
-        <Route path='/shop/hats' component={HatsPage} />
-        <Route path='/shop' component={ShopPage} />
-      </Switch>
+      <div style={{ marginTop: '80px' }}>
+        <Switch>
+          <Route exact path='/' component={Homepage} />
+          <Route path='/signin' component={SignPage} />
+          <Route path='/shop/hats' component={HatsPage} />
+          <Route path='/shop' component={ShopPage} />
+        </Switch>
+      </div>
     </div>
   );
 }
