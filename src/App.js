@@ -22,7 +22,7 @@ function App() {
       <div style={{ marginTop: '80px' }}>
         <Switch>
           <Route exact path='/' component={Homepage} />
-          <Route path='/signin' component={SignPage} />
+          <Route path='/sign' component={SignPage} />
           <Route path='/shop/hats' component={HatsPage} />
           <Route path='/shop' component={ShopPage} />
         </Switch>

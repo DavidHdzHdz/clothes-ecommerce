@@ -1,9 +1,14 @@
 import React from 'react';
+import SignInForm from '../../components/sign-in-form/sign-in-form.component';
+import './sign-page.styles.scss';
 
 const SignPage = () => {
+
   return (
     <div className='sign-in-and-sign-up'>
-      Sign Page
+      <div className='sign-in'>
+        <SignInForm />
+      </div>
     </div>
   )
 }
