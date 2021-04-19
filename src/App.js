@@ -26,7 +26,7 @@ function App() {
   }, []);
 
   return (
-    <div>
+    <div className='app'>
       <Header />
       <div style={{ marginTop: '80px' }}>
         <div>Hola: {currentUser ? currentUser.displayName: 'por favor loggearse para mejor atención'}</div>

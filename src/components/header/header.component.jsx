@@ -12,16 +12,16 @@ const Header = () => {
         <img src={logo} className='img-fluid' alt='gato gris joyeria logo'/>
       </Link>
       <div className='options'>
-        <Link className='option' to='/shop' >
+        <Link className='option nav-link' to='/shop' >
           SHOP
         </Link>
-        <Link className='option' to='/contact' >
+        <Link className='option nav-link' to='/contact' >
           CONTACT
         </Link>
-        <Link className='option' to='/sign' >
+        <Link className='option nav-link' to='/sign' >
           SIGN IN
         </Link>
-        <Link className='option' to='/cart' >
+        <Link className='option nav-link' to='/cart' >
           SHOPPING CART
         </Link>
       </div>
