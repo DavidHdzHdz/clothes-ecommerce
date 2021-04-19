@@ -40,7 +40,9 @@ export class SignInForm extends Component {
           <CustomButton type='submit'>Ingresar</CustomButton>
           <br />
           <br />
-          <CustomButton onClick={signInWithGoogle}>Ingresar con Google</CustomButton>
+          <CustomButton type='button' onClick={signInWithGoogle}>
+            Ingresar con Google
+          </CustomButton>
         </form>
       </div>
     )
